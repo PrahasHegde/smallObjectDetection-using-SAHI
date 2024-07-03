@@ -1,1 +1,2 @@
 SAHI works by dividing an image into slices that completely cover it and running inference on each of these slices with a specified detection model. The predictions across all of these slices are then merged together to generate one list of detections across the entire image. The “hyper” in SAHI comes from the fact that SAHI’s output is not the result of model inference but a result of computations involving multiple model inferences.
+The result is visualized using fiftyone
